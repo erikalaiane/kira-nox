@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Marquee from './components/Marquee'
 import About from './components/About'
 import Works from './components/Works'
+import Process from './components/Process'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Marquee />
       <About />
       <Works />
+      <Process />
     </main>
   )
 }
