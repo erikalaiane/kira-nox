@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hover\:pause-marquee:hover {
+  animation-play-state: paused;
+}
+
+.animate-works-marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes works-marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
