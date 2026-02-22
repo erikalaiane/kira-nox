@@ -5,11 +5,6 @@ function Marquee() {
     "Experimental",
     "Alternative",
     "Void Sessions",
-    "Sound Design",
-    "Music Producer",
-    "Experimental",
-    "Alternative",
-    "Void Sessions",
   ]
 
   return (
@@ -20,8 +15,8 @@ function Marquee() {
       <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-kira-bg to-transparent z-10 pointer-events-none" />
 
       {/* Faixa rolando */}
-      <div className="flex animate-marquee whitespace-nowrap">
-        {items.map((item, index) => (
+      <div className="flex animate-marquee whitespace-nowrap w-max">
+        {[...items, ...items, ...items, ...items].map((item, index) => (
           <span key={index} className="flex items-center">
             <span className="font-display text-kira-gold/70 text-2xl tracking-widest uppercase px-6">
               {item}
