@@ -6,15 +6,20 @@ function Contact() {
       <div className="absolute top-0 left-0 w-96 h-96 bg-kira-terra/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-kira-gold/5 rounded-full blur-3xl pointer-events-none" />
 
-      {/* MAKE NOISE gigante */}
-      <div className="relative flex flex-col items-center justify-center pt-24 pb-8 overflow-hidden">
-        
-        <div className="absolute inset-0 flex flex-col items-center justify-center gap-2">
-          <span className="font-display text-[15vw] leading-none tracking-widest select-none whitespace-nowrap bg-gradient-to-r from-kira-terra via-kira-gold to-kira-terra bg-clip-text text-transparent opacity-20">
+        {/* MAKE NOISE gigante */}
+        <div className="relative flex items-center justify-center pt-24 pb-8 overflow-hidden">
+        <span className="font-display leading-none text-kira-gold/10 tracking-widest select-none text-center"
+            style={{ fontSize: 'clamp(3rem, 10vw, 10rem)' }}
+        >
             MAKE NOISE
-          </span>
+        </span>
+        <span
+            className="absolute font-display leading-none tracking-widest select-none text-center bg-gradient-to-r from-kira-terra via-kira-gold to-kira-terra bg-clip-text text-transparent opacity-20"
+            style={{ fontSize: 'clamp(3rem, 10vw, 10rem)' }}
+        >
+            MAKE NOISE
+        </span>
         </div>
-      </div>
 
       {/* Conteúdo principal */}
       <div className="relative z-10 px-16 pb-24 max-w-6xl mx-auto">
@@ -122,7 +127,7 @@ function Contact() {
       <div className="border-t border-kira-gold/10 px-16 py-8">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <span className="font-display text-kira-gold text-xl tracking-widest">KIRA NOX</span>
-          <span className="text-kira-cream/20 text-[10px] tracking-widest uppercase">© 2024 — Todos os direitos reservados</span>
+          <span className="text-kira-cream/20 text-[10px] tracking-widest uppercase">© 2026 — Todos os direitos reservados</span>
           <span className="text-kira-cream/20 text-[10px] tracking-widest uppercase">Sound has no shape. Until now.</span>
         </div>
       </div>
